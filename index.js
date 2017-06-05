@@ -1,6 +1,6 @@
 const http = require('http');
-const useragent= require('useragent')
-
+const useragent= require('useragent');
+const port = process.env.PORT || 8000;
 let server = http.createServer(function(req, res) {
 	console.log(JSON.stringify(req.headers));
 	res.writeHead(200, { 'Content-Type' : 'text/plain'});
@@ -15,4 +15,4 @@ let server = http.createServer(function(req, res) {
 	res.end();
 });
 
-server.listen(8000);
+server.listen(port);
