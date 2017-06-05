@@ -1,0 +1,26 @@
+{
+  "name": "fcc.backend.reqparser",
+  "version": "0.0.1",
+  "description": "parse request headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bael/fcc.backend.reqparser.git"
+  },
+  "keywords": [
+    "reuest",
+    "headers"
+  ],
+  "author": "d.kerner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bael/fcc.backend.reqparser/issues"
+  },
+  "homepage": "https://github.com/Bael/fcc.backend.reqparser#readme",
+  "dependencies": {
+    "useragent": "^2.1.13"
+  }
+}
