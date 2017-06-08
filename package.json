@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Bael/fcc.backend.reqparser#readme",
   "dependencies": {
-    "useragent": "^2.1.13"
+    "express-useragent": "^1.0.7",
+    "ipaddr.js": "^1.3.0"
+  
   }
 }
